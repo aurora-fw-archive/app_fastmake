@@ -1,0 +1,31 @@
+{
+	"name": "Fast Make Build Example",
+	"type": "build",
+	"env": {
+	  "FMAKE_ENV_EXAMPLE": "stuff"
+	},
+	"import": [],
+	"targets": [
+	  {
+		"name": "example-1",
+		"type": "none",
+		"before_script": [],
+		"after_script": [],
+		"files": [],
+		"settings": {
+		  "threads": -1,
+		  "files.threads": -1,
+		  "script.threads": 0,
+		  "before_script.threaded": false,
+		  "after_script.threaded": false
+		}
+	  }
+	  ],
+	  "global_settings": {
+		"generated": "fmake",
+		"fmake.cached": false,
+		"target.files.cached": false,
+		"global.threads": -1,
+		"target.files.threads": -1
+	  }
+  }
