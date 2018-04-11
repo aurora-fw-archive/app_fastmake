@@ -1,0 +1,5 @@
+{
+	"env": {
+		"FMAKE_ENV_EXAMPLE": "stuff"
+	}
+}
